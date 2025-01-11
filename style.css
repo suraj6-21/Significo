@@ -18,6 +18,10 @@ body{
     background-color: var(--salmon);
 }
 
+
+
+
+
 /* Themes */
 body[theme="black"] {
     background-color: var(--black);
