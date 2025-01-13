@@ -5,12 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: PPNeueMachina_Medium ;
-    src: url(./assets/PP\ Neue\ Machina\ \ Medium.woff2)  format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
+
 :root {
     --salmon: #EF9D71;
     --black: #000;
