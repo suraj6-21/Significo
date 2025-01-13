@@ -19,18 +19,11 @@
     --dcyan: #4f676c;
     --dsalmon: #ebc6c3;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html {
-font-family: 'PPNeueMachina_Light', sans-serif;
-}
 
 
 body{
     transition: background-color ease-out .5s;
-    font-family: 'PPNeueMachina_Light';
+    font-family: 'PPNeueMachina_Medium';
 
 }
 .videodiv {
