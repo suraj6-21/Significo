@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: PPNeueMachina_Light ;
+    src: url(./assets/PPNeueMachina_\ Light.woff2)  format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: PPNeueMachina_Medium ;
+    src: url(./assets/PP\ Neue\ Machina\ \ Medium.woff2)  format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     --salmon: #EF9D71;
     --black: #000;
@@ -6,9 +19,19 @@
     --dcyan: #4f676c;
     --dsalmon: #ebc6c3;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+font-family: 'PPNeueMachina_Light', sans-serif;
+}
+
 
 body{
     transition: background-color ease-out .5s;
+    font-family: 'PPNeueMachina_Light';
+
 }
 .videodiv {
     clip-path: circle(var(--clip) at 50% 50%);
@@ -17,10 +40,6 @@ body{
 *::selection {
     background-color: var(--salmon);
 }
-
-
-
-
 
 /* Themes */
 body[theme="black"] {
